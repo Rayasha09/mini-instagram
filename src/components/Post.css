@@ -1,0 +1,163 @@
+.post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 300px;
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .post-header {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post-caption {
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .like-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .heart-button {
+    font-size: 24px;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease; 
+  }
+  
+  .heart-button:hover {
+    transform: scale(1.2); 
+  }
+  
+  .heart-button.liked {
+    color: red; 
+  }
+  
+  .like-text {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+ .add-comment input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+
+.add-comment button {
+    padding: 8px 15px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+   /* .post {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .post-header h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .post-image {
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .post-caption {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .like-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .heart-button {
+    font-size: 24px;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease; 
+  }
+
+  .heart-button:hover {
+    transform: scale(1.2); 
+  }
+
+  .heart-button.liked {
+    color: red; 
+  }
+  
+  .like-text {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+   */
+
+  /* .post-comments {
+    margin-top: 15px;
+  }
+   */
+  /* .comment {
+    font-size: 14px;
+    color: #333;
+  } */
+  
+  /* .no-comments {
+    color: #888;
+  }
+   */
+  /* .add-comment {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  } */
+  
+ 
+  
+  
+  

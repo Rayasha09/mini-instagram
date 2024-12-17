@@ -1,0 +1,201 @@
+.app-header {
+  width: 300px; /* Ширина одинаковая с полем "Ваше имя" */
+  margin: 0 auto; /* Выравнивание по центру */
+  padding: 10px;
+  border: 3px solid #ff69b4; /* Ярко-розовая рамка */
+  border-radius: 5px; /* Скругление углов */
+  text-align: center; /* Выравнивание текста по центру */
+}
+
+.app-header h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.app-header p {
+  font-size: 16px;
+  color: #666;
+}
+
+.add-post-form input,
+.add-post-form textarea {
+  width: 300px; /* Ширина одинаковая с рамкой заголовка */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.add-post-form button {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.add-post-form button:hover {
+  background-color: #ff2b86;
+}
+
+.add-post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-post-form input,
+.add-post-form textarea {
+  width: 300px; /* Сделать одинаковую ширину */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.add-post-form textarea {
+  height: 100px; /* Установим одинаковую высоту для textarea */
+  resize: none; /* Запрещаем изменение размера */
+}
+
+.add-post-form button {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.add-post-form button:hover {
+  background-color: #ff2b86;
+}
+/* Оформление контейнера для всех постов */
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Стиль для каждого поста */
+.post {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ff69b4; /* Розовая рамка */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для постов */
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Анимация для поста при наведении */
+.post:hover {
+  transform: translateY(-10px); /* Поднимаем пост */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Увеличиваем тень */
+}
+
+/* Оформление изображения поста */
+.post img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Оформление имени пользователя */
+.post .username {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Оформление подписи */
+.post .caption {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Кнопка лайка */
+.like-button {
+  border: 2px solid #ff69b4;
+  border-radius: 50%;
+  padding: 10px 12px;
+  background-color: transparent;
+  color: #ff69b4;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.like-button:hover {
+  background-color: #ff69b4;
+  color: white;
+  transform: scale(1.1); /* Легкое увеличение кнопки при наведении */
+}
+
+/* Текст лайков */
+.like-text {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+
+
+
+
+/* Стиль для формы комментариев */
+.comment-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.comment-form input {
+  flex-grow: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+}
+
+.comment-form button {
+  padding: 8px 12px;
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #ff1493;
+}
+
+/* Стиль для списка комментариев */
+.comments {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+
+.comment {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
